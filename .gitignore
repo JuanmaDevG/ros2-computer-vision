@@ -1,2 +1,4 @@
 *.o
 main
+ros2_ws/Stage/
+ros2_ws/stage_ros2/
