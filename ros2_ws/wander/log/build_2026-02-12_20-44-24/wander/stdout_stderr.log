@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/wander_node.dir/src/wander.cpp.o[0m
+[01m[K/home/ros2_ws/src/wander/src/wander.cpp:78:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   78 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/wander_node.dir/build.make:76: CMakeFiles/wander_node.dir/src/wander.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wander_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

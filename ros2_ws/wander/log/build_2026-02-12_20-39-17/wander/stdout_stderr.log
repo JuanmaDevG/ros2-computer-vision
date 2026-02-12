@@ -1,0 +1,28 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/wander_node.dir/src/wander.cpp.o[0m
+[01m[K/home/ros2_ws/src/wander/src/wander.cpp:82:1:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[KWander odometrySub[m[K’
+   82 | [01;31m[KodometrySub[m[K = this->create_subscription<Odometry>("odom", 1, bind(&Wander::commandOdom, this, std::placeholders::_1));
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ros2_ws/src/wander/src/wander.cpp:27:35:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Krclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > >::SharedPtr odometrySub[m[K’
+   27 | Subscription<Odometry>::SharedPtr [01;36m[KodometrySub[m[K;
+      |                                   [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ros2_ws/src/wander/src/wander.cpp:82:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ at top level
+   82 | odometrySub = [01;31m[Kthis[m[K->create_subscription<Odometry>("odom", 1, bind(&Wander::commandOdom, this, std::placeholders::_1));
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/ros2_ws/src/wander/src/wander.cpp:82:49:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   82 | odometrySub = this->create_subscription<Odometry[01;31m[K>[m[K("odom", 1, bind(&Wander::commandOdom, this, std::placeholders::_1));
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/ros2_ws/src/wander/src/wander.cpp:82:51:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   82 | odometrySub = this->create_subscription<Odometry>([01;35m[K"odom"[m[K, 1, bind(&Wander::commandOdom, this, std::placeholders::_1));
+      |                                                   [01;35m[K^~~~~~[m[K
+[01m[K/home/ros2_ws/src/wander/src/wander.cpp:82:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Wander::[01;32m[KcommandOdom[m[K(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’ is private within this context
+   82 | odometrySub = this->create_subscription<Odometry>("odom", 1, bind(&Wander::[01;31m[KcommandOdom[m[K, this, std::placeholders::_1));
+      |                                                                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ros2_ws/src/wander/src/wander.cpp:58:8:[m[K [01;36m[Knote: [m[Kdeclared private here
+   58 |   void [01;36m[KcommandOdom[m[K(const nav_msgs::msg::Odometry::SharedPtr msg) {
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ros2_ws/src/wander/src/wander.cpp:82:89:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ at top level
+   82 | odometrySub = this->create_subscription<Odometry>("odom", 1, bind(&Wander::commandOdom, [01;31m[Kthis[m[K, std::placeholders::_1));
+      |                                                                                         [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/wander_node.dir/build.make:76: CMakeFiles/wander_node.dir/src/wander.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wander_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

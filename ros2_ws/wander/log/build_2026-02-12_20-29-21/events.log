@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.000239] (wander) JobQueued: {'identifier': 'wander', 'dependencies': OrderedDict()}
+[0.000307] (wander) JobStarted: {'identifier': 'wander'}
+[0.011473] (wander) JobProgress: {'identifier': 'wander', 'progress': 'cmake'}
+[0.012054] (wander) JobProgress: {'identifier': 'wander', 'progress': 'build'}
+[0.012635] (wander) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_ws/src/wander/build/wander', '--', '-j8', '-l8'], 'cwd': '/home/ros2_ws/src/wander/build/wander', 'env': OrderedDict({'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'juanmint-laptop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home/ros2_ws/src/wander/src', 'ROS_PYTHON_VERSION': '3', 'PS1': '\\[\x1b[1;32m\\]\\u@\\h\\[\x1b[0m\\]:\\[\x1b[1;34m\\]\\w\\[\x1b[0m\\]#', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2_ws/src/wander/build/wander', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099218] (-) TimerEvent: {}
+[0.099616] (wander) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wander_node.dir/src/wander.cpp.o\x1b[0m\n'}
+[0.199416] (-) TimerEvent: {}
+[0.299901] (-) TimerEvent: {}
+[0.400338] (-) TimerEvent: {}
+[0.500819] (-) TimerEvent: {}
+[0.601255] (-) TimerEvent: {}
+[0.701725] (-) TimerEvent: {}
+[0.802165] (-) TimerEvent: {}
+[0.902606] (-) TimerEvent: {}
+[1.003052] (-) TimerEvent: {}
+[1.103528] (-) TimerEvent: {}
+[1.203972] (-) TimerEvent: {}
+[1.304406] (-) TimerEvent: {}
+[1.404900] (-) TimerEvent: {}
+[1.505354] (-) TimerEvent: {}
+[1.605830] (-) TimerEvent: {}
+[1.706268] (-) TimerEvent: {}
+[1.806751] (-) TimerEvent: {}
+[1.907325] (-) TimerEvent: {}
+[2.007793] (-) TimerEvent: {}
+[2.108205] (-) TimerEvent: {}
+[2.208885] (-) TimerEvent: {}
+[2.217016] (wander) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2_ws/src/wander/src/wander.cpp:29:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSharedPointer\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.217368] (wander) StderrLine: {'line': b'   29 |   friend Subscription<Odometry>::\x1b[01;31m\x1b[KSharedPointer\x1b[m\x1b[K;\n'}
+[2.217546] (wander) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.223244] (wander) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2_ws/src/wander/src/wander.cpp:32:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSibscription\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KSubscription\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.223563] (wander) StderrLine: {'line': b'   32 |   \x1b[01;31m\x1b[KSibscription\x1b[m\x1b[K<LaserScan>::SharedPtr laserSub;\n'}
+[2.223722] (wander) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.223861] (wander) StderrLine: {'line': b'      |   \x1b[32m\x1b[KSubscription\x1b[m\x1b[K\n'}
+[2.225328] (wander) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2_ws/src/wander/src/wander.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Wander::\x1b[01;32m\x1b[KcommandCallback\x1b[m\x1b[K(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.225636] (wander) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2_ws/src/wander/src/wander.cpp:42:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kint totalValues\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.225790] (wander) StderrLine: {'line': b'   42 |     int \x1b[01;31m\x1b[KtotalValues\x1b[m\x1b[K = min(totalValues, static_cast<int>(msg->ranges.size()));\n'}
+[2.225927] (wander) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.226066] (wander) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2_ws/src/wander/src/wander.cpp:41:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint totalValues\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[2.226225] (wander) StderrLine: {'line': b'   41 |     int \x1b[01;36m\x1b[KtotalValues\x1b[m\x1b[K = static_cast<int>(ceil((msg->angle_max - msg->angle_min) / msg->angle_increment));\n'}
+[2.226357] (wander) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.237064] (wander) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2_ws/src/wander/src/wander.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KWander::\x1b[01;32m\x1b[KWander\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.237380] (wander) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2_ws/src/wander/src/wander.cpp:74:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KlaserSub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.237554] (wander) StderrLine: {'line': b'   74 |     \x1b[01;31m\x1b[KlaserSub\x1b[m\x1b[K = this->create_subscription<LaserScan>("base_scan", 1, bind(&Wander::commandCallback, this, std::placeholders::_1));\n'}
+[2.237706] (wander) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.263178] (wander) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2_ws/src/wander/src/wander.cpp:75:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""ms\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.263484] (wander) StderrLine: {'line': b'   75 |     timer_ = this->create_wall_timer(\x1b[01;31m\x1b[K100ms\x1b[m\x1b[K, bind(&Wander::timerCallback, this));\n'}
+[2.263664] (wander) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.266383] (wander) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2_ws/src/wander/src/wander.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.266695] (wander) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2_ws/src/wander/src/wander.cpp:80:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconflicting declaration \xe2\x80\x98\x1b[01m\x1b[KWander odometrySub\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.266848] (wander) StderrLine: {'line': b'   80 | \x1b[01;31m\x1b[KodometrySub\x1b[m\x1b[K = this->create_subscription<Odometry>("odom", 1, bind(&Wander::commandOdom, this, std::placeholders::_1));\n'}
+[2.266988] (wander) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.267124] (wander) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2_ws/src/wander/src/wander.cpp:25:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration as \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > >::SharedPtr odometrySub\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.267262] (wander) StderrLine: {'line': b'   25 | Subscription<Odometry>::SharedPtr \x1b[01;36m\x1b[KodometrySub\x1b[m\x1b[K;\n'}
+[2.267396] (wander) StderrLine: {'line': b'      |                                   \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.267550] (wander) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2_ws/src/wander/src/wander.cpp:80:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 at top level\n'}
+[2.267696] (wander) StderrLine: {'line': b'   80 | odometrySub = \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->create_subscription<Odometry>("odom", 1, bind(&Wander::commandOdom, this, std::placeholders::_1));\n'}
+[2.267831] (wander) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.267964] (wander) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2_ws/src/wander/src/wander.cpp:80:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.268129] (wander) StderrLine: {'line': b'   80 | odometrySub = this->create_subscription<Odometry\x1b[01;31m\x1b[K>\x1b[m\x1b[K("odom", 1, bind(&Wander::commandOdom, this, std::placeholders::_1));\n'}
+[2.268262] (wander) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.268409] (wander) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2_ws/src/wander/src/wander.cpp:80:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.268590] (wander) StderrLine: {'line': b'   80 | odometrySub = this->create_subscription<Odometry>(\x1b[01;35m\x1b[K"odom"\x1b[m\x1b[K, 1, bind(&Wander::commandOdom, this, std::placeholders::_1));\n'}
+[2.268755] (wander) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.268892] (wander) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2_ws/src/wander/src/wander.cpp:80:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid Wander::\x1b[01;32m\x1b[KcommandOdom\x1b[m\x1b[K(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.269030] (wander) StderrLine: {'line': b'   80 | odometrySub = this->create_subscription<Odometry>("odom", 1, bind(&Wander::\x1b[01;31m\x1b[KcommandOdom\x1b[m\x1b[K, this, std::placeholders::_1));\n'}
+[2.269165] (wander) StderrLine: {'line': b'      |                                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.269300] (wander) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2_ws/src/wander/src/wander.cpp:56:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.269435] (wander) StderrLine: {'line': b'   56 |   void \x1b[01;36m\x1b[KcommandOdom\x1b[m\x1b[K(const nav_msgs::msg::Odometry::SharedPtr msg) {\n'}
+[2.269606] (wander) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.269758] (wander) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2_ws/src/wander/src/wander.cpp:80:89:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 at top level\n'}
+[2.269894] (wander) StderrLine: {'line': b'   80 | odometrySub = this->create_subscription<Odometry>("odom", 1, bind(&Wander::commandOdom, \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K, std::placeholders::_1));\n'}
+[2.270029] (wander) StderrLine: {'line': b'      |                                                                                         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.309074] (-) TimerEvent: {}
+[2.409546] (-) TimerEvent: {}
+[2.509994] (-) TimerEvent: {}
+[2.610610] (-) TimerEvent: {}
+[2.711201] (-) TimerEvent: {}
+[2.811631] (-) TimerEvent: {}
+[2.912086] (-) TimerEvent: {}
+[3.012571] (-) TimerEvent: {}
+[3.113018] (-) TimerEvent: {}
+[3.213469] (-) TimerEvent: {}
+[3.313930] (-) TimerEvent: {}
+[3.414379] (-) TimerEvent: {}
+[3.514850] (-) TimerEvent: {}
+[3.615293] (-) TimerEvent: {}
+[3.715774] (-) TimerEvent: {}
+[3.816220] (-) TimerEvent: {}
+[3.916671] (-) TimerEvent: {}
+[4.017120] (-) TimerEvent: {}
+[4.117591] (-) TimerEvent: {}
+[4.218032] (-) TimerEvent: {}
+[4.305708] (wander) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/wander_node.dir/build.make:76: CMakeFiles/wander_node.dir/src/wander.cpp.o] Error 1\n'}
+[4.306131] (wander) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wander_node.dir/all] Error 2\n'}
+[4.306548] (wander) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.312038] (wander) CommandEnded: {'returncode': 2}
+[4.318476] (-) TimerEvent: {}
+[4.321848] (wander) JobEnded: {'identifier': 'wander', 'rc': 2}
+[4.332914] (-) EventReactorShutdown: {}

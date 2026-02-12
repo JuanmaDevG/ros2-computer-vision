@@ -1,0 +1,4 @@
+source;share/wander/local_setup.bash
+source;share/wander/local_setup.dsv
+source;share/wander/local_setup.sh
+source;share/wander/local_setup.zsh

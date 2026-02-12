@@ -1,0 +1,10 @@
+[0.013s] Invoking command in '/home/ros2_ws/src/wander/build/wander': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[[1;32m\]\u@\h\[[0m\]:\[[1;34m\]\w\[[0m\]# /usr/bin/cmake --build /home/ros2_ws/src/wander/build/wander -- -j8 -l8
+[0.098s] [ 50%] [32mBuilding CXX object CMakeFiles/wander_node.dir/src/wander.cpp.o[0m
+[2.242s] [01m[K/home/ros2_ws/src/wander/src/wander.cpp:78:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[2.242s]    78 | }
+[2.242s]       |  [01;31m[K^[m[K
+[2.242s]       |  [32m[K;[m[K
+[5.069s] gmake[2]: *** [CMakeFiles/wander_node.dir/build.make:76: CMakeFiles/wander_node.dir/src/wander.cpp.o] Error 1
+[5.069s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wander_node.dir/all] Error 2
+[5.070s] gmake: *** [Makefile:146: all] Error 2
+[5.073s] Invoked command in '/home/ros2_ws/src/wander/build/wander' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[[1;32m\]\u@\h\[[0m\]:\[[1;34m\]\w\[[0m\]# /usr/bin/cmake --build /home/ros2_ws/src/wander/build/wander -- -j8 -l8
